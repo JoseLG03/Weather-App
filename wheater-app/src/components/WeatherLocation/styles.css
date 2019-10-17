@@ -8,6 +8,13 @@
     overflow: hidden;
 }
 
+.forecast-tittle{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .LocationCont h1{
     margin: 0;
     white-space: nowrap;
