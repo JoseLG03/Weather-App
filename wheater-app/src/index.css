@@ -12,8 +12,11 @@ code {
     monospace;
 }
 
-.details{
-  background: gray;
-  height: 100vh;
-  width: 100%;
+.detail{
+  background: #999;
+  height: 85vh;
+  width: calc(100%-40px);
+  overflow:auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }

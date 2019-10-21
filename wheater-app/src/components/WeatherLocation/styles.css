@@ -5,11 +5,11 @@
     padding-left: 10px;
     color:#888;
     line-height: 35px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .forecast-tittle{
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -29,4 +29,5 @@
     padding: 15px;
     box-shadow:10px 10px 30px -12px rgba(0, 0, 0, 0.75);
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }

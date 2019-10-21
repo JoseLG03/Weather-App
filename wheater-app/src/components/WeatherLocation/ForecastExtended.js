@@ -49,7 +49,7 @@ class ForecastExtended extends Component{
         return forecastData.map( forecast =>(
         <ForecastItem 
             key={`${forecast.weekDay}${forecast.hour}`}
-            weekday={forecast.weekday} 
+            weekday={forecast.weekDay} 
             hour={forecast.hour} 
             data={forecast.data}>
         </ForecastItem>));        
