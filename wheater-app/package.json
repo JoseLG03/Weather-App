@@ -10,8 +10,10 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-flexbox-grid": "^2.1.2",
+    "react-redux": "^7.1.1",
     "react-scripts": "3.1.2",
-    "react-weathericons": "^1.0.4"
+    "react-weathericons": "^1.0.4",
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
