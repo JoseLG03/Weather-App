@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import {Grid, Row, Col} from 'react-flexbox-grid';
-import {createStore} from 'redux';
+import {store} from './store/index';
 import LocationList from './components/LocationList';
 import ForecastExtened from './components/WeatherLocation/ForecastExtended'
 import {setCity} from './actions/index';
@@ -19,8 +19,6 @@ const cities=[
   'Lima, pe',
   'Madrid, es'
 ];
-
-const store=createStore(()=>{}, window.__REDUX_DEVTOOLS_EXTENSION__&& window.__REDUX_DEVTOOLS_EXTENSION__());
 
 class App extends Component{
 
