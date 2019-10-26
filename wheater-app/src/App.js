@@ -5,7 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import LocationListContainer from './containers/LocationListContainer';
-import ForecastExtened from './components/WeatherLocation/ForecastExtended'
+import ForecastExtendContainer from './containers/ForecastExtendContainer';
 import './App.css';
 
 const cities=[
@@ -19,13 +19,8 @@ const cities=[
 
 class App extends Component{
 
-  constructor(){
-    super();
-    this.state={city:null};
-  }
-
   render(){
-    const {city}=this.state;
+
     return(
         <Grid>
             <Row>
@@ -44,11 +39,7 @@ class App extends Component{
               <Col xs={12} md={6}>
                 <Paper elevation={4}>
                   <div className="details">
-                    {
-                      city?
-                        <ForecastExtened city={city}></ForecastExtened>:
-                        <h1>No a seleccionado Ciudad</h1>
-                    }
+                        <ForecastExtendContainer/>
                   </div>
                 </Paper>
               </Col>
