@@ -1,29 +1,13 @@
 import React, {Component} from 'react';
 import ForecastItem from './../ForecastItem/index';
-import transformForecast from './../../services/transformForecast';
 import PropTypes from 'prop-types';
+import transformForecast from './../../services/transformForecast';
 import './styles.css';
 
 const api_key="47a729d9bd277c6be12ebace47236bee";
-const url_base_weather="http://api.openweathermap.org/data/2.5/forecast";
-/*
-const days=[
-    'Lunes',
-    'Martes',
-    'Miercoles',
-    'Jueves',
-    'Viernes',
-];
+const url="http://api.openweathermap.org/data/2.5/forecast";
 
-const data={
-    temperature:10,
-    humidity:15,
-    weatherState:'SUN',
-    wind:'29',
-};
-*/
 class ForecastExtended extends Component{
-
     constructor(){
         super();
         this.state={forecastData:null}
@@ -41,9 +25,9 @@ class ForecastExtended extends Component{
         }
     }
 
-    updateCity=city=>{
-        const url_forecast=`${url_base_weather}?q=${city}&appid=${api_key}`;
-
+    updateCity=city =>{
+        const url_forecast=`${url}?q=${city}&appid=${api_key}`;
+        
         fetch(url_forecast).then(
             data=>(data.json())
         ).then(
