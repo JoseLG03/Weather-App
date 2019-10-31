@@ -1,6 +1,6 @@
 import {createSelector} from 'reselect';
 import {SET_FORECAST_DATA, GET_WEATHER_CITY, SET_WEATHER_CITY} from './../actions';
-
+//avanzamos
 export const cities = (state = {}, action) =>{
     switch (action.type) {
         case SET_FORECAST_DATA:{
