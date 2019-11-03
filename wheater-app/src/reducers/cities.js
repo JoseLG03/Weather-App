@@ -21,4 +21,7 @@ export const cities = (state = {}, action) =>{
 }
 
 export const getForecastDataFromCities=
-createSelector((state, city) => state[city] && state[city].forecastData, forecastData =>forecastData);
+    createSelector((state, city) => state[city] && state[city].forecastData, forecastData =>forecastData);
+
+export const getWeathercities =
+    createSelector(state => [], cities => cities);
