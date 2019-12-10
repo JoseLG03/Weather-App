@@ -2,5 +2,5 @@
 //seguimos avanzando
 //terminando el sql
 //funciones join
-//macros
+//macros y formulas 
 //version2
