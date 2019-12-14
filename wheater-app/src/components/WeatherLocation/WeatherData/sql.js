@@ -4,4 +4,4 @@
 //funciones join
 //version2
 //web development 2020
-//free code camp
+//free code camp y curso de JS
