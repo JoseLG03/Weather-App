@@ -4,3 +4,4 @@
 //free code camp y curso de JS
 //recordando CSS
 //Basic CSS
+//visual design
