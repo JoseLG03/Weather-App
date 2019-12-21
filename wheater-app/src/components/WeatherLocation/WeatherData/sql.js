@@ -5,4 +5,4 @@
 //recordando CSS
 //Basic CSS
 //visual design
-//stoped
+//stoped 2-3
